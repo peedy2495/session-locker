@@ -18,7 +18,7 @@ run `systemctl enable --now session-locker.service`
 
 ## Conclusion
 Now, all types of graphical local sessions will be locked on changing a session.  
-Text-based sessions will be killed, because locking text TTYs is unreliable.
+Text-based sessions will be killed, because locking text TTYs is unreliable [#35093](https://github.com/systemd/systemd/issues/35093).
 
 This is merely a workaround for some security gaps in systemd.  
 Hopefully, the issues covered will be fixed soon.
