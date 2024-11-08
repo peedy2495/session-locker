@@ -1,6 +1,10 @@
 # session-locker
 
-Lock local sessions when switching a local terminal
+Lock local systemd sessions when switching a local terminal
+
+## Prerequisites
+
+- a distribution using systemd 
 
 ## Installation
 
