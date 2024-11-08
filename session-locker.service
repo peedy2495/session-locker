@@ -1,0 +1,9 @@
+[Unit]
+Description=Lock local sessions when switching the terminal
+
+[Service]
+ExecStart=/usr/local/bin/session-locker.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
